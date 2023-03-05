@@ -2,7 +2,7 @@
 # Jekyll Config
 # --------------------
 baseurl: ""
-url: ""
+url: "yenything.github.io"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
