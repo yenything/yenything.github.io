@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: "/"
-title: "Hello I'm <a href='/contact'>Yena</a>, and specialized in <em>Data Science / Financial Institutions Consulting</em>."
-description: "I'm passionate about empowering companies with data-driven insights"
+title: "I'm <a href='/contact'>Yena</a>, and delivering data-driven insights for companies."
+description: "Specialized in Data Science and Financial Institution Consulting"
 image: "/assets/images/homepage_1.png"
 
 meta_description: "Yena's Portfolio"
