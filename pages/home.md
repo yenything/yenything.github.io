@@ -10,7 +10,7 @@ meta_title: Yena Hong
 
 posts:
   heading: "Latest Posts"
-  limit: 6
+  limit: 3
   sort: date # date | weight
   view_more_button_text: "View Blog"
   view_more_button_link: /blog
