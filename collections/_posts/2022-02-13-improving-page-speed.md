@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Improving page speed"
-date: 2022-02-13T09:49:03Z
-authors: ["Jodi Harmon"]
-categories: ["Seo", "Development"]
-description: Faster website download speeds have been shown to increase visitor retention and loyalty and user satisfaction, especially for users with slow internet connections and those on mobile devices.
+title: "A 30-Day Sentiment Analysis on the keyword ‘Abortion’ from Twitter USA"
+date: 2023-03-09T09:49:03Z
+authors: ["Yena Hong"]
+categories: ["NLP"]
+description: The aim of this study is to quantify the sentiments of people in the United States through their Twitter tweets regarding the topic of abortion. This will be done by the construction of different classifiers wherein the classifier producing the highest accuracy will be chosen for the final prediction and analysis of results.
 thumbnail: "/assets/images/gen/blog/blog-18-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-18.webp"
-comments: true
+comments: false
 ---
 
 Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
