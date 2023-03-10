@@ -5,7 +5,7 @@ date: 2023-03-09T09:49:03Z
 categories: ["NLP", "nltk", "WordCloud"]
 description: The aim of this study is to quantify the sentiments of people in the United States through their Twitter tweets regarding the topic of abortion. This will be done by the construction of different classifiers wherein the classifier producing the highest accuracy will be chosen for the final prediction and analysis of results.
 thumbnail: "/assets/images/gen/content/twitter_logo.jpg"
-image: "/assets/images/gen/content/twitter_logo.png"
+image: "/assets/images/gen/content/twitter_logo.jpg"
 ---
 You can reach the application here: [Web App](https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/)
 # A 30-Day Sentiment Analysis on the keyword ‘Abortion’ from Twitter USA
