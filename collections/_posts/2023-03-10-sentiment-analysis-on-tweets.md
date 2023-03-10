@@ -7,6 +7,7 @@ description: The aim of this study is to quantify the sentiments of people in th
 thumbnail: "/assets/images/gen/content/tweets-2.jpg"
 comments: false
 ---
+You can reach the application here: [Web App](https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/)
 # A 30-Day Sentiment Analysis on the keyword ‘Abortion’ from Twitter USA
 by
 Gacis, Angelica Louise M.
@@ -53,8 +54,6 @@ The `pydeck` package helped us create a map of the USA with a scatterplot showin
 The last visualization tool is the word cloud which summarizes the strongest words mentioned regarding abortion. We included one word cloud for the positive and another for the negative tweets. This was done with the `wordcloud` package.
 
 With `streamlit`, we have also created a web app that features all of these visualizations where the user can also filter the data based on a specific date or state in the US.
-
-You can reach the application here. [Web App](https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/)
 
 ## 3. Results and Discussion
 
