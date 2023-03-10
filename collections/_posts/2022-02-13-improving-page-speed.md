@@ -36,11 +36,11 @@ The variable indicating the place of where each tweet was tweeted was a list of 
 We created a “sentiment” variable and manually assigned “positive”, “negative” and “neutral” to some of the tweets for the training of the machine learning models. We also used the help of the nltk package called  SentimentIntensityAnalyzer to improve our work for the tagging of 70% of the data.
 
 ### 2.4. Supervised Machine Learning
-#### 2.4.1. Feature Engineering
+### 2.4.1. Feature Engineering
 
 We applied the bag-of-words method from `scikit-learn` to transform our string data to count vectors which the machine learning models can easily read.
 
-#### 2.4.2. Model Selection
+### 2.4.2. Model Selection
 
 The features generated from the bag-of-words algorithm were used in four different estimators namely, Logistic Regression Classifier, Random Forest, SVM Linear, and Naive Bayes with accuracies of 94%, 69%, 77%, and 76% respectively. The best model, the Logistic Regression classifier is then used to predict the sentiments in the remaining 30% of the data.
 
@@ -54,7 +54,7 @@ The last visualization tool is the word cloud which summarizes the strongest wor
 
 With `streamlit`, we have also created a web app that features all of these visualizations where the user can also filter the data based on a specific date or state in the US.
 
-Web App: https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/
+[Web App](https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/)
 
 ## 3. Results and Discussion
 
@@ -73,43 +73,43 @@ Words like "women", "right", "state", "vote", and "people" also dominate the red
 We can see from Figure 5 below that the total number of original tweets in the US mentioning the word “abortion” started out abundant until it slowly decreased towards the end of November and started to increase again by the start of December. The abundance of tweets at the start may be due to lingering Twitter discussions on abortion following the recent elections on November 8 this year whereas our data collected started on November 10.
 
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-5.jpg" title="Figure 5. Total Time Series per Sentiment" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-5.jpg" title="Figure 3. Total Time Series per Sentiment" %}
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-6.jpg" title="Figure 6. Total Time Series for Net Sentiment" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-6.jpg" title="Figure 4. Total Time Series for Net Sentiment" %}
 
-The figure 7 and 8 below indicate the total time series for positive and negative sentiments grouped by five regions of the United States: Midwest, Northeast, Southeast, Southwest, and West. From the two sentiment graphs, we can notice that there is no distinct difference among the portion of each region per day. In other words, the patterns of each region may follow the pattern of the whole United States.
+The figure 5 and 6 below indicate the total time series for positive and negative sentiments grouped by five regions of the United States: Midwest, Northeast, Southeast, Southwest, and West. From the two sentiment graphs, we can notice that there is no distinct difference among the portion of each region per day. In other words, the patterns of each region may follow the pattern of the whole United States.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-7.jpg" title="Figure 7. Total Time Series for Positive Sentiment by Region" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-7.jpg" title="Figure 5. Total Time Series for Positive Sentiment by Region" %}
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-8.jpg" title="Figure 8. Total Time Series for Negative Sentiment by Region" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-8.jpg" title="Figure 6. Total Time Series for Negative Sentiment by Region" %}
 
 ### 3.3. Sentiments per Area
 
-The figures from 9 to 13 depict the overall sentiment of the five regions by locating longitudes and latitudes of tweets on the map  with color green, red, and gray. Each color represents positive sentiment, negative sentiment, and neutral sentiment respectively. Although, the number of positive sentiments and negative sentiments approximately equal, we can find the regional characteristics from the figures.
+The figures from 7 to 11 depict the overall sentiment of the five regions by locating longitudes and latitudes of tweets on the map  with color green, red, and gray. Each color represents positive sentiment, negative sentiment, and neutral sentiment respectively. Although, the number of positive sentiments and negative sentiments approximately equal, we can find the regional characteristics from the figures.
 
 In the Midwest region, we can see positive sentiments relatively frequent on the west side, and the negative sentiments on the east side.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-9.jpg" title="Figure 9. Midwest Region Sentiment Map" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-9.jpg" title="Figure 7. Midwest Region Sentiment Map" %}
 
 In the Northeast region, most of the positive, negative, and neutral sentiments appear along the coast line.
   
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-10.jpg" title="Figure 10. Northeast Region Sentiment Map" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-10.jpg" title="Figure 8. Northeast Region Sentiment Map" %}
 
 In the Southeast region, the negative and neutral sentiments are relatively heavily clustered in Florida, but are generally spread throughout the Southeast region.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-11.jpg" title="Figure 11. Southeast Region Sentiment Map" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-11.jpg" title="Figure 9. Southeast Region Sentiment Map" %}
 
 In the Southwest region, most tweets were from Huston and Dallas in Texas and Phoenix in Arizona. The negative sentiments appear more often than the positive sentiments.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-12.jpg" title="Figure 12. Southwest Region Sentiment Map" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-12.jpg" title="Figure 10. Southwest Region Sentiment Map" %}
 
 In the West region, most tweets originated from California, and there seem to be more neutral and negative sentiments than the positive sentiments.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-13.jpg" title="Figure 13. West Region Sentiment Map" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-13.jpg" title="Figure 11. West Region Sentiment Map" %}
 
 Generally, the number of tweets per area are still proportional to the population in those areas. We can see several positive, neutral, and negative tweets per region which indicates that the sentiment of people per area on abortion may not be as unified yet regardless of whether it is legalized by their state government or not. With this, we can infer that there may be other factors which can affect their sentiments such as perhaps, religion or age.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-14.jpg" title="Figure 14. Summary of Sentiments per US Region" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/tweets-14.jpg" title="Figure 12. Summary of Sentiments per US Region" %}
 
 ## 4. Conclusion, Lessons, and Recommendations
 
