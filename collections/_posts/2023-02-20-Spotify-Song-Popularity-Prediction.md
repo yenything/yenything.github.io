@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Ideas to help your business grow"
+title: "Spotify Song Popularity Prediction "
 date: 2022-02-11T16:49:03Z
-authors: ["Marc Paulo", "Alec Mendez"]
 categories: ["Branding", "Marketing"]
 description: "Branding is an intrinsic part of your companies success, learn why your brand matters. A brand is a name, term, design, symbol or any other feature that distinguishes one seller's good or service from those of other sellers."
 thumbnail: "/assets/images/gen/blog/blog-17-thumbnail.webp"
