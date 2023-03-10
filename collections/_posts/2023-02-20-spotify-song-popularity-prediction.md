@@ -18,9 +18,9 @@ Our exploration will focus on the cleaned dataset, which contains fourteen colum
 ### 1.1. EDA on Song Popularity
 The histogram presented illustrates the distribution of song popularity values in a cleaned dataset. The popularity values range from 1 to 100 and follow a normal distribution. The box plot indicates that 50% of the data falls within the interquartile range, which spans from 40 to 70.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/spotify-111.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/spotify-01.jpg" %}
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/spotify-12.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/spotify-02.jpg" %}
 
 ### 1.2. EDA on the numerical variables
 
