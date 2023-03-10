@@ -54,7 +54,7 @@ The last visualization tool is the word cloud which summarizes the strongest wor
 
 With `streamlit`, we have also created a web app that features all of these visualizations where the user can also filter the data based on a specific date or state in the US.
 
-[Web App](https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/)
+You can reach the application here. [Web App](https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/)
 
 ## 3. Results and Discussion
 
