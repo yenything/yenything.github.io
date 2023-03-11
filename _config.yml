@@ -160,6 +160,6 @@ footer:
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2021 Zerostatic Themes"
+  copyright_text: "© 2023 Yena Hong"
 
 
