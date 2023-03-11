@@ -73,21 +73,16 @@ Label 0: Yellow | Label 1: Blue | Label 2: Green | Label 3: Orange | Label 4: Pu
 
 ## 4.2. Findings
 
-[Cluster: Label 0]
-
-** The cluster of the absolute low living cost if you don't have a mortgage loan.**
+[Cluster: Label 0] The cluster of the absolute low living cost if you don't have a mortgage loan.
 - This cluster is known for its incredibly low cost of living, especially for those who do not have a mortgage loan. In fact, the average cost of living in this cluster is the lowest among all the clusters, except for the category of 'Mortgage Interest Rate', which is the highest in comparison to the other clusters. However, if you're not burdened with a mortgage, you can enjoy a very affordable lifestyle in this cluster.
 
-[Cluster: Label 1]
-** The cluster of the relative low living cost. **
+[Cluster: Label 1] The cluster of the relative low living cost.
 - For those looking for a relatively low cost of living, this cluster is a great option. The average cost of living in this cluster is similar to that of cluster label 3, but what sets it apart is the 'Average Monthly Net Salary', which is twice as much as the latter. This means that you can enjoy a comfortable lifestyle without breaking the bank.
 
-[Cluster: Label 2]
-** The cluster of the absolute high living cost. **
+[Cluster: Label 2] The cluster of the absolute high living cost.
 - If money is not an issue and you're looking for the highest standard of living, then this cluster is the one for you. It is the most expensive cluster of them all, with the average cost of living in most categories being higher than the other clusters. In particular, it is worth noting that Singapore is the most expensive city in the world to buy a car, with cars costing approximately four times more than they do in the other clusters. So, if you're looking for luxury and can afford it, this is the perfect cluster for you.
 
-[Cluster: Label 3]
-** The cluster of the relative high living cost. **
+[Cluster: Label 3] The cluster of the relative high living cost.
 - This cluster is similar to cluster label 1 in terms of the average cost of living. However, what sets it apart is the 'Average Monthly Net Salary', which is twice as small as that of cluster label 1. This means that living in this cluster may require a bit more budgeting and financial planning to maintain a comfortable standard of living. However, if you are willing to be a bit more frugal, you can still enjoy a relatively comfortable lifestyle in this cluster.
 
 
