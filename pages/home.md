@@ -12,7 +12,7 @@ posts:
   heading: "Latest Posts"
   limit: 3
   sort: date # date | weight
-  view_more_button_text: "View Project"
+  view_more_button_text: "View More"
   view_more_button_link: /blog
   columns: 3 # 1 | 2 | 3 | 4
 ---
