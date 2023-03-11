@@ -8,27 +8,30 @@ image: "/assets/images/gen/content/content-5.webp"
 ---
 
 
-> With over four years of experience as a consultant, I specialize in resolving business issues and enhancing business processes and IT systems. Additionally, I am pursuing a Master's degree in Data Science to equip myself with the necessary skills to provide companies with data-driven insights.
+> With over four years of experience as a consultant, I specialize in resolving business issues and enhancing business processes and IT systems. Currently, I am pursuing a Master's degree in Data Science to equip myself with the necessary skills to provide companies with data-driven insights.
 
-## What is Web Design?
+## Education
 
-User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use.
+**Michigan State University**
+- *Master of Science in Data Science*
+- Coursework: Machine Learning, Statistical Modeling, Data Mining, Big Data Analysis
 
-## Front-end Development
+**Duksung Women’s University**
+- *Bachelor of Accounting (minor in Business Administration)*
+- Coursework: Accounting (Consolidated, Cost, Corporate &middot; Income Tax, Nonprofit), Business Management (Finance, Marketing, Production &middot; Operations, Human Resource), Business Law
 
-The What addresses the things people can do with a product—its functionality. Finally, the How relates to the design of functionality in an accessible and aesthetically pleasant way. UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. In software designs, you will need to ensure the product’s “substance” comes through an existing device and offers a seamless, fluid experience.
+## Professional Experience
+- Consulted on credit risk management of financial institutions, including banks and financial groups.
+- Delivered up-to-date credit methodologies and international financial regulations to clients.
+- Analyzed data and created risk assessment models to implement new regulations in IT systems.
+- Communicated and interacted with consultants, accountants, developers, and bank executives.
+- Financial modeling, PowerPoint presentations, and various memorandums/reporting.
 
-Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.
+**PwC(PricewaterhouseCoopers)**
+- *Senior Associate Consultant, Financial Services Department*
 
-## Design Systems
-
-A Design System is a set of interconnected patterns and shared practices coherently organized to aid in digital product design and development of products such as apps or websites.
-
-## Process
-
-There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
-
-- User experience research
-- Visual design and illustration
-- Programming and coding
+**EY (Ernst & Young)**
+- *Senior Consultant, Financial Services Risk Management*	
+- *Junior Consultant, Financial Services Risk Management*	
+- *Intern, Financial Services Risk Management*
 
