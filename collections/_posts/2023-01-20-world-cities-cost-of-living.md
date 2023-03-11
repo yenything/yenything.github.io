@@ -69,7 +69,7 @@ Let's find out the characteristics of each cluster.
 # 4. Geolocation & Findings
 ## 4.1. Geolocation
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/cities_0.png" %}
-Label 0: Yellow | Label 1: Blue | Label 2: Green | Label 3: Orange | Label 4: Purple 
+Label 0: Yellow | Label 1: Blue | Label 2: Green | Label 3: Orange 
 
 ## 4.2. Findings
 
