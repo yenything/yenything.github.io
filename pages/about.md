@@ -8,7 +8,7 @@ image: "/assets/images/gen/content/content-5.webp"
 ---
 
 
-> As a consultant with 4+ years of experience solving business issues and improving business process/IT system, I am pursuing a Master's degree in Data Science to deliver data-driven insights for companies.
+> With over four years of experience as a consultant, I specialize in resolving business issues and enhancing business processes and IT systems. Additionally, I am pursuing a Master's degree in Data Science to equip myself with the necessary skills to provide companies with data-driven insights.
 
 ## What is Web Design?
 
