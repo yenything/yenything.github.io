@@ -2,11 +2,11 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: Blog
+  - name: Projects
     url: /blog/
     weight: 2
-  - name: Contact
-    url: /contact/
+  - name: About
+    url: /about/
     weight: 3
 bottom:
   - name: Privacy Policy
