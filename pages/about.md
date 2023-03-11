@@ -4,7 +4,7 @@ title: "About Me"
 date: 2023-03-09T15:15:34+10:00
 header_transparent: false
 permalink: "/about/"
-description: "Business plan hackathon handshake responsive web design."
+description: "As a consultant with 4+ years of experience solving business issues and improving business process/IT system, I am pursuing a Master's degree in Data Science to deliver data-driven insights for companies."
 image: "/assets/images/gen/content/content-5.webp"
 ---
 
