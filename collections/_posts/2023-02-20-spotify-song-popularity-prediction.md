@@ -3,7 +3,7 @@ layout: post
 title: "Spotify Song Popularity Prediction"
 date: 2023-02-20T16:49:03Z
 categories: ["R", "EAD", "Regression"]
-description: "The aim of this initiative is to develop a forecasting algorithm that can estimate the popularity of a song by utilizing other variables in the song data."
+description: "Develop a forecasting algorithm that can estimate the popularity of a song by utilizing other variables in the song data."
 thumbnail: "/assets/images/gen/content/spotify.png"
 image: "/assets/images/gen/content/spotify_white.png"
 ---
