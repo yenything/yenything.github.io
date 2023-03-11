@@ -21,11 +21,8 @@ image: "/assets/images/gen/content/content-5.webp"
 - Coursework: Accounting (Consolidated, Cost, Corporate &middot; Income Tax, Nonprofit), Business Management (Finance, Marketing, Production &middot; Operations, Human Resource), Business Law
 
 ## Professional Experience
-- Consulted on credit risk management of financial institutions, including banks and financial groups.
-- Delivered up-to-date credit methodologies and international financial regulations to clients.
-- Analyzed data and created risk assessment models to implement new regulations in IT systems.
-- Communicated and interacted with consultants, accountants, developers, and bank executives.
-- Financial modeling, PowerPoint presentations, and various memorandums/reporting.
+
+As a consultant, I have provided guidance on credit risk management to financial institutions, such as banks and financial groups. This work involved delivering up-to-date credit methodologies and international financial regulations to clients. Additionally, I analyzed data and developed risk assessment models to ensure that new regulations were effectively implemented in IT systems. Throughout this work, I have interacted with a diverse range of stakeholders, including consultants, accountants, developers, and bank executives. My responsibilities also included financial modeling, creating PowerPoint presentations, and preparing various memorandums and reports.
 
 **PwC(PricewaterhouseCoopers)**
 - *Senior Associate Consultant, Financial Services Department*
@@ -34,4 +31,5 @@ image: "/assets/images/gen/content/content-5.webp"
 - *Senior Consultant, Financial Services Risk Management*	
 - *Junior Consultant, Financial Services Risk Management*	
 - *Intern, Financial Services Risk Management*
+
 
