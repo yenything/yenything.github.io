@@ -3,7 +3,7 @@ layout: post
 title: "World Cities - Cost of Living"
 date: 2023-01-20
 categories: ["Clustering", "Python", "Streamlit"]
-description: The project aims to cluster world cities based on living costs and explore the characteristics of each cluster while observing their geographic location on a world map.
+description: Cluster world cities based on living costs and explore the characteristics of each cluster while observing their geographic location on a world map.
 thumbnail: "/assets/images/gen/content/cities_0.png"
 ---
 
