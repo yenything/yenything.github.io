@@ -69,7 +69,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "Yenything"
+title: "Yena Hong"
 
 category_dir: 'category'
 
@@ -124,7 +124,7 @@ fonts:
   logo: "Open Sans"
 
 logo:
-  logo_text: "Yenything"
+  logo_text: "Yena Hong"
   logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
