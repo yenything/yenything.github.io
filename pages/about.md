@@ -22,7 +22,7 @@ image: "/assets/images/gen/content/content-5.webp"
 
 ## Professional Experience
 
-As a consultant, I have provided guidance on credit risk management to financial institutions, such as banks and financial groups. This work involved delivering up-to-date credit methodologies and international financial regulations to clients. Additionally, I analyzed data and developed risk assessment models to ensure that new regulations were effectively implemented in IT systems. Throughout this work, I have interacted with a diverse range of stakeholders, including consultants, accountants, developers, and bank executives. My responsibilities also included financial modeling, creating PowerPoint presentations, and preparing various memorandums and reports.
+As a consultant, I have provided expertise in credit risk management for financial institutions such as banks and financial groups. This work involved delivering up-to-date credit methodologies and international financial regulations to clients. Additionally, I analyzed data and developed risk assessment models to ensure that new regulations were effectively implemented in IT systems. Throughout this work, I have interacted with a diverse range of stakeholders, including consultants, accountants, developers, and bank executives. My responsibilities also included financial modeling, creating PowerPoint presentations, and preparing various memorandums and reports.
 
 **PwC(PricewaterhouseCoopers)**
 - *Senior Associate Consultant, Financial Services Department*
