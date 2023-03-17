@@ -3,13 +3,13 @@ layout: post
 title: "Default Rate and Macroeconomic Indicators"
 date: 2022-12-05
 categories: ["EDA", "time-series", "Streamlit"]
-description: I will guide financial institutions in managing their credit risk (the risk of default on a debt that may arise from a borrower failing to pay their loan) during future crises by focusing on select indices from among the many variables available.
+description: Guide financial institutions in managing their credit risk (the risk of default on a debt that may arise from a borrower failing to pay their loan) during future crises by focusing on select indices from among the many variables available.
 thumbnail: "/assets/images/gen/content/20221205_0.png"
 ---
 
 {% include framework/shortcodes/youtube.html id='WOGxT7hkpKU' %}
 
-You can reach the application here: 🌐[Web App]([https://yenything-cmse830-ml-project-cmse-ml-prj-rws7mg.streamlit.app/](https://yenything-cmse830-datascience-project-cmse-hw6-fldvbh.streamlit.app/)
+You can reach the application here: 🌐[Web App]([https://yenything-cmse830-ml-project-cmse-ml-prj-rws7mg.streamlit.app/](https://yenything-cmse830-datascience-project-cmse-hw6-fldvbh.streamlit.app/])
 
 
 # 1. Introduction
