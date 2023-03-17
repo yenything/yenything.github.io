@@ -9,8 +9,7 @@ thumbnail: "/assets/images/gen/content/20221205_0.png"
 
 {% include framework/shortcodes/youtube.html id='WOGxT7hkpKU' %}
 
-🌐 You can reach the application here: [Web App]([https://yenything-cmse830-ml-project-cmse-ml-prj-rws7mg.streamlit.app/](https://yenything-cmse830-datascience-project-cmse-hw6-fldvbh.streamlit.app])
-
+🌐 You can reach the application here: [Web App](https://yenything-cmse830-datascience-project-cmse-hw6-fldvbh.streamlit.app/)
 
 # 1. Introduction
 The main goal of this project is to identify the most affected macroeconomic indices during past global economic recessions. In this project, I will analyze the relationship between the historical default rate in the United States and various macroeconomic indices, and select the top three indices that should be carefully monitored in the future. I anticipate this project to be helpful to companies (e.g., banks) in the financial industry. The project will allow the banks to manage their credit risk, the risk of default on a debt that may arise from a borrower failing to pay their loan, for the upcoming crisis by focusing on only selective indices among myriads of variables.  
