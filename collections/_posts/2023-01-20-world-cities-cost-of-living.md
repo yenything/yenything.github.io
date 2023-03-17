@@ -9,7 +9,7 @@ thumbnail: "/assets/images/gen/content/cities_0.png"
 
 {% include framework/shortcodes/youtube.html id='wcBpxVWDv0s' %}
 
-You can reach the application here: [Web App](https://yenything-cmse830-ml-project-cmse-ml-prj-rws7mg.streamlit.app/)
+🌐 You can reach the application here: [Web App](https://yenything-cmse830-ml-project-cmse-ml-prj-rws7mg.streamlit.app/)
 
 
 # 1. Introduction
