@@ -9,7 +9,7 @@ thumbnail: "/assets/images/gen/content/20221205_0.png"
 
 {% include framework/shortcodes/youtube.html id='WOGxT7hkpKU' %}
 
-You can reach the application here: 🌐[Web App]([https://yenything-cmse830-ml-project-cmse-ml-prj-rws7mg.streamlit.app/](https://yenything-cmse830-datascience-project-cmse-hw6-fldvbh.streamlit.app/])
+🌐 You can reach the application here: [Web App]([https://yenything-cmse830-ml-project-cmse-ml-prj-rws7mg.streamlit.app/](https://yenything-cmse830-datascience-project-cmse-hw6-fldvbh.streamlit.app])
 
 
 # 1. Introduction
