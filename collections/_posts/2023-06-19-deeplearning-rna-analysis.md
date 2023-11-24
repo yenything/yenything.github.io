@@ -9,8 +9,8 @@ thumbnail: "/assets/images/gen/content/DL_RNA_cover.jpg"
 
 # Deep learning clustering for single-cell RNA-seq data of mutant IDH1 glioma stem cells in brain cancer
 by
-Yena Hong
-Wenting Liu
+Yena Hong,
+Wenting Liu,
 Angelica Louise Gacis
 
 # 1.	Introduction 
