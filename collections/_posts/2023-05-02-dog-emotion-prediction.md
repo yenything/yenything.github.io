@@ -262,6 +262,7 @@ The author evaluated the accuracy and loss of four different models using testin
 | Inception V3 | 0.8300   | 0.4877 |
 | AlexNet      | 0.5000   | 1.2707 |
 | OverFeat     | 0.4133   | 1.4923 |
+
 *Table 2 Accuracy and Loss Compare for CNNs*
 
 ### 4.4.	Prediction Results
@@ -321,8 +322,13 @@ With regard to hyperparameter tuning, the model trained on the original data did
 Lastly, while a web app was not created in this project due to the model's low performance on real data, this can be revisited in the future as the model continues to improve. A functional web app can be an effective tool for showcasing the model's performance to a wider audience and potentially increasing its practical utility.
 
 ## 6.	References
+
 (1) https://www.kaggle.com/datasets/devzohaib/dog-emotions-prediction
+
 (2) https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
+
 (3) https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+
 (4) https://www.tensorflow.org/tutorials/images/cnn
+
 (5) https://www.tensorflow.org/api_docs/python/tf/keras/losses/CategoricalCrossentropy
