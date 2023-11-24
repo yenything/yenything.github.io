@@ -125,7 +125,8 @@ The authors considered different machine learning methodologies, starting with t
 | CNN InterceptionV3 | N/A                                               | Apply Interception V3 on Original Images|
 | CNN AlexNet        | N/A                                               | Apply AlexNet on Original Images|
 | CNN OverFeat       | N/A                                               | Apply OverFeat on Original Images|
-{% include title="Table 1 Machine Learning Method" %}
+
+* Table 1 Machine Learning Method
 
 
 
