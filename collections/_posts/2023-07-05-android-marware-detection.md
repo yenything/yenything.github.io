@@ -176,5 +176,232 @@ After retaining the columns from the previous process, we aimed to improve the m
 - `Packet_Length_Range`
   - This is the difference between the maximum and minimum values of all packet length features across both forward and backward packets.
 
+## 1.6. ENCODING CATEGORICAL VARIABLES
+
+Before building a machine learning model, it is often necessary to preprocess the data to ensure that it is in the right format for the model. In this case, two features require encoding: 'Protocol' and 'Malware Type'. Encoding is the process of converting categorical variables into numerical values, which can be easily processed by machine learning algorithms.
+
+### 1. One Hot Encoding for 'Protocol':
+The 'Protocol' feature is a categorical variable with three unique values, representing the three different protocols used in the dataset. One Hot Encoding is a method used to convert a categorical variable into multiple binary columns, with each column representing a unique category (in this case, a unique protocol). Each row of the dataset will have a '1' in the column corresponding to the protocol it uses and a '0' in the other columns. This type of encoding is particularly useful when there is no ordinal relationship between the categories, meaning the categories cannot be sorted or ranked in a meaningful way. By using One Hot Encoding, the machine learning model can treat each protocol independently without assuming any inherent order.
+
+### 2. Label Encoding for 'Malware Type':
+The 'Malware Type' feature represents the type of malware present in the dataset. Unlike the 'Protocol' feature, the number of malware types can be large, and there may be an implicit order or hierarchy between the types. In this case, Label Encoding is more appropriate. Label Encoding is a method where each unique category is assigned a numerical value, typically an integer starting from 0. For example, if there are five malware types, they will be assigned values from 0 to 4. While this encoding method is more compact and straightforward, it may introduce an ordinal relationship between categories, which might not be suitable for all use cases. However, for 'Malware Type', it can be beneficial, as the model can learn the relationships between different types of malware.
+
+By encoding the 'Protocol' and 'Malware Type' features appropriately, the machine learning model can better understand and process the dataset, leading to improved performance in detecting Android Malwares.
+
+## 1.7. RESAMPLING AND SCALING
+
+Resampling and scaling techniques play a crucial role in building an accurate and robust machine learning model for detecting Android malware. In our project, we applied two techniques, Standard Scaler and Synthetic Minority Over-sampling Technique (SMOTE), to preprocess our dataset and address class imbalance.
+Standard Scaler was used to normalize the data by transforming features to have a mean of 0 and a standard deviation of 1. This technique ensures that all features contribute equally to the model and reduces the influence of outliers. In our project, we applied Standard Scaler to our dataset before training our machine learning model.
+
+In addition, we applied SMOTE, an oversampling technique, to address class imbalance. The imbalance between the number of benign and malicious apps in our dataset can negatively affect the performance of our model in detecting Android malware. SMOTE generates synthetic samples for the minority class by interpolating between similar observations in the dataset. This technique improves the model's performance on underrepresented data and increases the robustness of the model in real-world scenarios.
+
+By combining Standard Scaler and SMOTE, we enhanced the effectiveness and generalization capabilities of our machine learning model. Normalizing the data with Standard Scaler reduces the impact of outliers and ensures that all features contribute equally to the model, while SMOTE addresses class imbalance and enhances the model's performance on underrepresented data. Overall, resampling and scaling techniques are essential preprocessing steps that help to improve the accuracy and robustness of our Android malware detection model.
+
+## 1.8. FEATURE SELECTION
+
+Feature selection is an important step in building a machine learning model that accurately detects Android malware. In our project, we used two different techniques, LASSO and Random Forest, to select the most relevant features and improve the performance and interpretability of our model.
+
+LASSO, or Least Absolute Shrinkage and Selection Operator, is a linear model that has built-in feature selection capabilities. It works by imposing a penalty on the absolute size of the regression coefficients, effectively shrinking less important features towards zero. We used LASSO to identify the top features that contributed significantly to detecting Android malware.
+
+In addition to LASSO, we also employed Random Forest, an ensemble-based method that estimates feature importance through numerous decision trees. Random Forest analyzes the impact of each feature by randomly selecting a subset of features at each node of the decision tree, then aggregating the results from all trees. This technique provided an additional perspective on the most relevant features in our dataset.
+
+By comparing the results of both LASSO and Random Forest, we were able to identify the top 35 most important features. This comprehensive and robust selection of features helped enhance the performance and interpretability of our final model. We eliminated irrelevant or redundant features, allowing our model to focus on the most important features for detecting Android malware. Overall, feature selection played a critical role in optimizing the performance of our machine learning model and in identifying the features most relevant to our project.
+
+*Table1. LASSO Implementation*
+
+| Feature                                 | Coefficient   |
+| --------------------------------------- | ------------- |
+| Protocol_1                              | 0.231294899   |
+| min_seg_size_forward                    | -0.214956155  |
+| FIN_Flag_Count                          | -0.129146697  |
+| Packet_Length_Std                       | -0.125222328  |
+| Bwd_Packet_Length_Max                   | -0.105489865  |
+| Flow_Bytes_Packets_per_s_Ratio          | 0.104349297   |
+| URG_Flag_Count                          | -0.090510373  |
+| Flow_IAT_Mean                           | -0.078108522  |
+| Fwd_PSH_Flags                           | -0.054437468  |
+| Bwd_Packets/s                           | -0.052991505  |
+| Init_Win_bytes_forward                  | 0.051045197   |
+| Source_Port                             | 0.050368992   |
+| Fwd_Packet_Length_Min                   | 0.048234878   |
+| Fwd_IAT_Std                             | -0.046310077  |
+| Fwd_Packets/s                           | 0.041815924   |
+| Fwd_Packet_Length_Std                   | 0.037874436   |
+| Min_Packet_Length                       | -0.035616776  |
+| Flow_IAT_Std                            | -0.034594528  |
+| Active_Max                              | 0.031976843   |
+| Bwd_IAT_Min                             | -0.029706756  |
+| Bwd_Packet_Length_Min                   | 0.022120766   |
+| Fwd_Bwd_IAT_Mean_Product                | 0.020945319   |
+| Init_Win_bytes_backward                 | 0.020519736   |
+| SYN_Flag_Count                          | -0.015250855  |
+| Fwd_Bwd_Packet_Length_Mean_Product      | 0.015019541   |
 
 
+*Table2. Random Forest Implementation*
+
+| Feature                            | Importance   |
+| ---------------------------------- | ------------ |
+| Source_Port                        | 0.052672     |
+| Flow_Duration                      | 0.040811     |
+| Flow_IAT_Max                       | 0.039271     |
+| Flow_IAT_Min                       | 0.039124     |
+| Flow_IAT_Mean                      | 0.037537     |
+| Init_Win_bytes_forward             | 0.036855     |
+| Fwd_Packets/s                      | 0.035989     |
+| Flow_Packets/s                     | 0.035539     |
+| Fwd_IAT_Min                        | 0.032314     |
+| Fwd_Bwd_IAT_Mean_Diff              | 0.027968     |
+| Fwd_IAT_Mean                       | 0.026866     |
+| Fwd_IAT_Max                        | 0.026513     |
+| Total_IAT                          | 0.02642      |
+| Fwd_IAT_Total                      | 0.026344     |
+| Destination_Port                   | 0.0246       |
+| Bwd_Packets/s                      | 0.023407     |
+| Init_Win_bytes_backward            | 0.018175     |
+| Total_Header_Length                | 0.015315     |
+| Flow_Bytes/s                       | 0.015214     |
+| Flow_IAT_Std                       | 0.015167     |
+| Fwd_IAT_Std                        | 0.01416      |
+| Fwd_Bwd_Header_Length_Ratio        | 0.013273     |
+| Fwd_Header_Length                  | 0.012566     |
+| Fwd_Bwd_Packets_per_s_Ratio        | 0.0109       |
+| min_seg_size_forward               | 0.010793     |
+| Avg_Fwd_Segment_Size               | 0.009571     |
+| Flow_Bytes_Packets_per_s_Ratio     | 0.009513     |
+| Average_Packet_Size                | 0.009378     |
+| Fwd_Bwd_Packet_Length_Mean_Ratio   | 0.008968     |
+| Fwd_Packet_Length_Mean             | 0.008965     |
+| Avg_Fwd_Bwd_Segment_Size_Ratio     | 0.008921     |
+
+
+*Table3. Selected Features*
+
+| No. | Selected Features                  |
+| --- | ---------------------------------- |
+| 1   | Source_Port                        |
+| 2   | Flow_Duration                      |
+| 3   | Flow_IAT_Max                       |
+| 4   | Flow_IAT_Min                       |
+| 5   | Flow_IAT_Mean                      |
+| 6   | Init_Win_bytes_forward             |
+| 7   | Fwd_Packets/s                      |
+| 8   | Flow_Packets/s                     |
+| 9   | Fwd_IAT_Min                        |
+| 10  | Fwd_Bwd_IAT_Mean_Diff              |
+| 11  | Fwd_IAT_Mean                       |
+| 12  | Fwd_IAT_Max                        |
+| 13  | Total_IAT                          |
+| 14  | Fwd_IAT_Total                      |
+| 15  | Destination_Port                   |
+| 16  | Bwd_Packets/s                      |
+| 17  | Init_Win_bytes_backward            |
+| 18  | Total_Header_Length                |
+| 19  | Flow_Bytes/s                       |
+| 20  | Flow_IAT_Std                       |
+| 21  | Fwd_IAT_Std                        |
+| 22  | Fwd_Bwd_Header_Length_Ratio        |
+| 23  | Fwd_Header_Length                  |
+| 24  | Fwd_Bwd_Packets_per_s_Ratio        |
+| 25  | min_seg_size_forward               |
+| 26  | Avg_Fwd_Segment_Size               |
+| 27  | Flow_Bytes_Packets_per_s_Ratio     |
+| 28  | Average_Packet_Size                |
+| 29  | Fwd_Bwd_Packet_Length_Mean_Ratio   |
+| 30  | Fwd_Packet_Length_Mean             |
+| 31  | Avg_Fwd_Bwd_Segment_Size_Ratio     |
+| 32  | Subflow_Fwd_Bytes                  |
+| 33  | Packet_Length_Std                  |
+| 34  | Fwd_Bwd_Packet_Length_Mean_Product |
+| 35  | Packet_Length_Mean'                |
+
+## 1.9. MODELLING
+
+## 1.9.1. BASE MODEL
+
+In our initial attempt to build a machine learning model for detecting Android malware, we experimented with two tree-based classifiers, XGBoost and Random Forest. Our objective was to determine the importance of features in the dataset and identify which ones had the greatest impact on detecting malware.
+
+Unfortunately, our results were not satisfactory. We achieved a maximum accuracy of only 52% with Random Forest, and our initial attempts with XGBoost did not yield better results. We realized that using default feature selection methods was not sufficient, as it was the combination of various columns that actually detected a pattern in the data.
+
+However, this initial attempt helped us realize the importance of feature engineering in building an accurate and robust machine learning model for detecting Android malware. We were able to learn from this experience and further refine our approach to improve the accuracy and effectiveness of our final model.
+
+## 1.9.2. BINARY CLASSIFICATION MODEL
+
+### Predicting Benign vs Malignant
+
+In order to accurately predict whether a given target is benign or malignant malware, we needed to ensure that our data was balanced with an equal number of entries for each class. Without balanced data, our model may become biased towards the class with more entries, resulting in inaccurate predictions. To address this issue, we used a technique called upsampling, which involves creating additional copies of the minority class (in this case, the malignant class) so that it has the same number of entries as the majority class (the benign class). This ensured that our model had an equal representation of both classes in the training data, allowing it to learn from a more diverse set of examples and potentially improve its performance.
+
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_09.jpg" %}
+
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_10.jpg" %}
+
+We started by building a baseline model using Naive Bayes algorithm, which yielded an accuracy of only 50%. We then decided to explore other classification algorithms to improve the accuracy of our model. We evaluated four different classifiers, including Decision Tree, XGBoost, KNN and Neural Network. The results of our experiment are presented in the table below, which shows the accuracy of each algorithm. Notably, the Decision Tree algorithm demonstrated the highest accuracy with 94%, indicating that it outperformed our baseline model.
+
+| Model          | Accuracy | Description           |
+| -------------- | -------- | --------------------- |
+| Naive Bayes    | 50.05%   | Base model            |
+| Decision Tree  | 94.66%   | Well Performed        |
+| XGBoost        | 68.36%   | Well Performed        |
+| KNN            | 88.03%   | Well Performed        |
+| Neural Network | 51.68%   | Did not Perform Well  |
+
+## 1.9.3. MULTI CLASS CLASSIFICATION MODEL
+
+### Predicting Types of Malware
+
+To gain a better understanding of the features and determine the most effective feature engineering approach, we initially performed our modeling and analysis using a subset of the dataset, selecting only one CSV file from each malware family instead of using all the provided CSVs. This strategy allowed us to efficiently explore the relationships between features, evaluate different feature engineering techniques, and refine our models in a more manageable and focused manner, ultimately enhancing the performance of our final Android malware detection model.
+
+Results of the sample dataset are:
+
+| Model                | Accuracy | Description      |
+| -------------------- | -------- | ---------------- |
+| Decision Tree        | 63.1%    | Base Model       |
+| XGB Classifier       | 74.76%   | Well Performed   |
+| KNN                  | 50.31%   | -                |
+| Neural Network       | 31.75%   | -                |
+| Naive Bayes          | 24.01%   | -                |
+| Random Forest        | 66.89%   | Well Performed   |
+| Gradient Boosting    | 62.88%   | Well Performed   |
+| AdaBoost             | 49.16%   | -                |
+| CatBoost             | 70.76%   | Well Performed   |
+| LightGBM             | 72.21%   | Well Performed   |
+| SVM                  | 39.4%    | -                |
+| Logistic Regression  | 39.89%   | -                |
+
+
+During the course of our analysis, we encountered a challenge with the large volume of data that we had initially obtained. Specifically, we had 355,630 values, which proved to be too cumbersome to work with during multiclass classification modeling. The time taken to run each model was not feasible, and when we attempted to apply feature engineering, the time requirements were even more substantial. Additionally, we occasionally encountered "Out of Memory" errors, which further complicated the analysis process.
+
+Therefore to streamline our analysis, we selected one family from each type of malware and worked exclusively with those values. This approach allowed us to effectively manage the size of the dataset while still enabling us to produce reliable results. By reducing the volume of data, we also mitigated the frequency of memory errors, which facilitated a more seamless analysis process.
+
+We further applied only those classifiers that gave good result in our sampling case.
+
+The results are:
+
+| Model             | Accuracy | Description        |
+| ----------------- | -------- | ------------------ |
+| Decision Tree     | 71%      | Base Model         |
+| XGB Classifier    | 78.3%    | Better Performance |
+| LightGBM          | 75.15%   | Good               |
+| Random Forest     | 81.77%   | Best Performance   |
+| CatBoost Accuracy | 76.69%   | Good               |
+
+## 1.10. CONCLUSION
+
+In conclusion, our analysis highlights the importance of carefully selecting a representative sample dataset to effectively perform feature engineering and model refinement. By using a smaller sample, we were able to refine our models more efficiently and identify the top performing classifiers. This approach ultimately led to the development of a robust Android malware detection model with strong performance across all malware families.
+
+## 1.11. REFERENCES
+
+[CITATION] :
+A. H. Lashkari, A. F. A. Kadir, L. Taheri and A. A. Ghorbani, "Toward Developing a Systematic Approach to Generate Benchmark Android Malware Datasets and Classification," 2018 International Carnahan Conference on Security Technology (ICCST), Montreal, QC, Canada, 2018, pp. 1-7, doi: 10.1109/CCST.2018.8585560.
+
+## APPENDIX
+
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT1.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT2.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT3.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT4.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT5.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT6.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT7.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT8.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT9.jpg" %}
