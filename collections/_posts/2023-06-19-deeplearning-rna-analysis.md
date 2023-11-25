@@ -143,7 +143,7 @@ In our scDSC architecture, which includes a ZINB model and a GNN, we have four o
 
 scDSC is implemented in Python 3 (version 3.10.10) using PyTorch (version 2.0.1). 
 
-# 5. 
+# 5. Results
 
 ## 5.1. Data preprocessing
 
