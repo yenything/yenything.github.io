@@ -3,7 +3,7 @@ layout: post
 title: "Deep Learning Neural Networks Predicting Dog's Emotions"
 date: 2023-05-02T09:49:03Z
 categories: ["Deep Learning", "Neural Network", "Image Prediction"]
-description: Create a supervised learning model using a dataset of 16,000 dog images to accurately predict their emotions—angry, happy, relaxed, or sad—using a convolutional neural network for a web application.
+description: Develop a supervised learning model with a dataset of 16,000 dog images to precisely predict their emotions—angry, happy, relaxed, or sad—employing a convolutional neural network for a web application.
 thumbnail: "/assets/images/gen/content/AMLDog_f08.jpg"
 ---
 🌐 You can reach the project code here: [code]([https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/](https://github.com/yenything/CMSE890_AppliedMachineLearning/blob/master/CMSE890_AML_FinalProject.ipynb)https://github.com/yenything/CMSE890_AppliedMachineLearning/blob/master/CMSE890_AML_FinalProject.ipynb)
