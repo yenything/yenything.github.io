@@ -4,7 +4,7 @@ title: "Android Malware Detection"
 date: 2023-07-05T09:49:03Z
 categories: ["Massive Data", "Feature Engineering", "Machine Learning"]
 description: Develop a robust machine learning model to accurately classify Android malware into distinct types and differentiate between malignant and benign samples.
-thumbnail: "/assets/images/gen/content/AndMal_PPT4.jpg"
+thumbnail: "/assets/images/gen/content/AndMal_PPT4.JPG"
 ---
 
 🌐 You can reach the project code here: [Project Code](https://github.com/yenything/STT811_StatisticalModeling)
@@ -86,8 +86,6 @@ Lastly, we decided to drop the 'Timestamp' column, as it only provided the date 
 ## 1.4.4. TARGET VARIABLE EXPLORATION
 
 We delved into the analysis of the target variable within the malware classification project. Our initial step was to explore the distribution of Benign and Malignant Malware, the two primary categories under consideration. The Malignant category encompasses four distinct subtypes: Adware, Ransomware, Scareware, and SMSmalware. A bar graph representation of the data revealed that the Malignant category dominates the dataset, accounting for the majority of the observations.
-
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_map.jpg" %}
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_03.jpg" %}
 
@@ -396,12 +394,12 @@ A. H. Lashkari, A. F. A. Kadir, L. Taheri and A. A. Ghorbani, "Toward Developing
 
 ## APPENDIX
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT1.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT2.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT3.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT4.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT5.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT6.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT7.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT8.jpg" %}
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT9.jpg" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT1.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT2.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT3.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT4.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT5.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT6.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT7.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT8.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AndMal_PPT9.JPG" %}
