@@ -4,7 +4,7 @@ title: "Graph Classification Problem"
 date: 2023-04-30T09:49:03Z
 categories: ["Graph", "Classification"]
 description: Given a graph dataset, we aim to predict the label of the nodes in the graph. Hence, this is a classification problem.
-thumbnail: "/assets/images/gen/content/twitter_logo.jpg"
+thumbnail: "/assets/images/gen/content/CSE881_Project.jpg"
 ---
 
 ### 1. Project Goal  
