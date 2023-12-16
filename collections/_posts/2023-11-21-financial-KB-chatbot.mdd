@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Financial Industry Knowledge-Base and Chatbot"
+date: 2023-11-21T09:49:03Z
+categories: ["KnowledgeBase", "LargeLanguageModel", "Chatbot"]
+description: Develop a knowledge base system based on Basel regulations and create a chatbot specialized in the financial industry using a large-scale language model.
+thumbnail: "/assets/images/gen/content/AI_prj_7.JPG"
+---
+
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_1.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_2.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_3.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_4.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_5.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_6.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_7.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_8.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_9.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_10.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_11.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_12.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_13.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_14.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_15.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_16.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_17.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_18.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_19.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_20.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_21.JPG" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/AI_prj_22.JPG" %}
