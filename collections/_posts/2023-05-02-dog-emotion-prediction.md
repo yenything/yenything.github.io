@@ -6,7 +6,7 @@ categories: ["Deep Learning", "Neural Network", "Image Prediction"]
 description: Develop a supervised learning model with a dataset of 16,000 dog images to precisely predict their emotions—angry, happy, relaxed, or sad—employing a convolutional neural network for a web application.
 thumbnail: "/assets/images/gen/content/AMLDog_f08.jpg"
 ---
-🌐 You can reach the project code here: [code]([https://almgcs-bigdataanalytics-cse482-uqbv8c.streamlit.app/](https://github.com/yenything/CMSE890_AppliedMachineLearning/blob/master/CMSE890_AML_FinalProject.ipynb)https://github.com/yenything/CMSE890_AppliedMachineLearning/blob/master/CMSE890_AML_FinalProject.ipynb)
+🌐 You can reach the project code here: [code](https://github.com/yenything/CMSE890_AppliedMachineLearning/blob/master/CMSE890_AML_FinalProject.ipynb)
 # Using Deep Learning Neural Networks to Predict Dog's Emotions
 by Yena Hong
 
