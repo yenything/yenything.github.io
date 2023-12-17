@@ -31,3 +31,4 @@ thumbnail: "/assets/images/gen/content/opt_max_flow_11.JPG"
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/opt_max_flow_22.JPG" %}
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/opt_max_flow_23.JPG" %}
 
+<object data="/assets/images/gen/content/CMSE_831_project report.pdf" width="1000" height="1000" type="application/pdf"></object>
