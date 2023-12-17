@@ -2,7 +2,7 @@
 layout: post
 title: "Modeling the Pareto Set and Low-Rank solutions in Multi-Objective Optimization"
 date: 2023-11-30T09:49:03Z
-categories: ["Optimization", "Multi-Object", "Pareto Rule"]
+categories: ["Multi-Objective", "Optimization", "Pareto Rule"]
 description: Develop Machine Learning algorithms to identify Pareto-efficient solutions in ZDT-1 datasets, aiming to establish rules for classifying Pareto sets in multi-objective optimization problems.
 thumbnail: "/assets/images/gen/content/download_1216.png"
 ---
