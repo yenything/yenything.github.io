@@ -10,3 +10,6 @@ thumbnail: "/assets/images/gen/content/download_1216.png"
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/Poster.jpg" %}
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/Poster.pdf" %}
+
+
+<object data="/assets/images/gen/content/Poster.pdf" width="1000" height="1000" type="application/pdf"></object>
